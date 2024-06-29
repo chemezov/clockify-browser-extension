@@ -296,7 +296,7 @@
 	},
 	"pyrus.com": {
 		"name": "Pyrus",
-		"link": "*://pyrus.com/t*",
+		"link": "*://pyrus.com/*",
 		"script": "pyrus.js"
 	},
 	"redbooth.com": {

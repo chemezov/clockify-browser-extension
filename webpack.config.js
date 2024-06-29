@@ -3,6 +3,9 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
 const webpack = require('webpack');
 
+// process.env.NODE_ENV = 'prod';
+process.env.TARGET = 'chrome.dev';
+
 let DEV =
 	!process.env.NODE_ENV ||
 	process.env.NODE_ENV !== 'prod' ||
